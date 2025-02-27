@@ -13,7 +13,7 @@ spec:
         app: myjavaapp
     spec:
       containers:
-      - name: myjavaapp
+      - name: myjavaapp-deployment-6c54cdc69f-7k7hp
         image: docker-images/java-app:7
         ports:
         - containerPort: 8080
